@@ -121,10 +121,10 @@
                             <a href="#"><i class="fa fa-desktop fa-fw"></i> Menu Dekripsi<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#>"><i class="fa fa-file fa-fw"></i> Dekripsi File</a>
+                                    <a href="<?php echo base_url('dekripsi/file'); ?>"><i class="fa fa-file fa-fw"></i> Dekripsi File</a>
                                 </li>
                                 <li>
-                                    <a href="#>"><i class="fa fa-file-text fa-fw"></i> Dekripsi Text</a>
+                                    <a href="<?php echo base_url('dekripsi/text'); ?>"><i class="fa fa-file-text fa-fw"></i> Dekripsi Text</a>
                                 </li>    
                             </ul>
                         </li>

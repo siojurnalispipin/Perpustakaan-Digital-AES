@@ -110,6 +110,7 @@ class Enkripsi extends MY_Controller
 			$data["cipher"] = $result;
 		}
 
-		$this->template->load('layoutbackend', 'enkripsi/enkrip_text');
+        $data["contents"] = "enkrip_text";
+		$this->template->load('layoutbackend', 'enkripsi/enkrip_text', $data);
 	}
 }
