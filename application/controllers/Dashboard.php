@@ -7,6 +7,9 @@ class Dashboard extends MY_Controller {
     {
         parent::__construct();
         $this->load->model('Mod_anggota');
+
+        //encrypt
+        $this->load->library('encrypt');
     }
 
     function index()
