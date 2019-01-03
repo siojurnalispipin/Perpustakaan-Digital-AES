@@ -3,7 +3,7 @@
        
         <ol class="breadcrumb">
             <li><a href="<?php echo base_url('buku/create'); ?>">Buku</a></li>
-            <li class="active">Create Buku</li>
+            <li class="active">Tambah Buku</li>
         </ol>
 
         <?php
